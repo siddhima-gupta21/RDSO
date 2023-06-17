@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html><head> 
+    <title>empoyee salary Database</Title>
+</head>
+<body>
+
+<h1>Employee Database</h1>
+<p>by siddhima</p>
+{% for item in all %}
+<p>{{item.name}}<br/>
+Email: {{item.address}}<br/>
+Salary: {{item.salary}}<br/>
+
+<hr>
+
+</p>
+{% endfor %}
+
+<a href ="/"> Home Page</a>
+</body>
+</html> 
